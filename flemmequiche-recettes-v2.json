@@ -1,0 +1,489 @@
+{
+  "meta": {
+    "projet": "Flemmequiche",
+    "description": "Pool de 20 recettes one-pot ou quasi one-pot, simples, peu de vaisselle, 30 minutes maximum de preparation, equilibrees en legumes/proteines/feculents",
+    "portions_par_defaut": 2,
+    "principes": [
+      "PD-01 : un ustensile par defaut",
+      "PD-02 : equilibre nutritionnel garanti",
+      "PD-03 : effort minimal"
+    ],
+    "version": "2.0",
+    "date_maj": "17/09/2026",
+    "note_maj": "Unités harmonisées avec l'accentuation française correcte et alignées sur la revalidation des unités de mesure du référentiel d'ingrédients (App cuisine - specs v1.3) : la valeur 'unite' devient 'pièce', 'cuillere a soupe' devient 'cuillère à soupe', 'cuillere a cafe' devient 'cuillère à café'. Les quantités de pois chiches, courgette, carotte et tomates en conserve étaient déjà exprimées dans les nouvelles unités validées (g, pièce) : aucune conversion numérique n'a été nécessaire sur ces recettes existantes."
+  },
+  "recettes": [
+    {
+      "id": "riz-poulet-poivrons-petits-pois",
+      "titre": "Riz au poulet, poivrons et petits pois",
+      "temps_preparation_minutes": 25,
+      "ustensiles": ["poele"],
+      "portions": 2,
+      "categorisation": {"feculent": "riz", "proteine": "poulet", "legumes": ["poivrons", "petits pois", "oignon"]},
+      "ingredients": [
+        {"nom": "riz", "quantite": 160, "unite": "g"},
+        {"nom": "filet de poulet", "quantite": 250, "unite": "g"},
+        {"nom": "poivrons surgeles en lanieres", "quantite": 200, "unite": "g"},
+        {"nom": "petits pois surgeles", "quantite": 150, "unite": "g"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "bouillon cube", "quantite": 1, "unite": "pièce"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Emincer l'oignon et couper le poulet en des.",
+        "Faire chauffer l'huile dans la poele et faire dorer le poulet 5 minutes.",
+        "Ajouter l'oignon, les poivrons et les petits pois, faire revenir 3 minutes.",
+        "Ajouter le riz, verser le bouillon (environ deux fois le volume de riz), couvrir et laisser cuire 18 minutes a feu doux.",
+        "Verifier la cuisson du riz, rectifier l'assaisonnement et servir."
+      ]
+    },
+    {
+      "id": "curry-pois-chiches-tomate-epinards",
+      "titre": "Curry de pois chiches, tomate et epinards",
+      "temps_preparation_minutes": 25,
+      "ustensiles": ["casserole"],
+      "portions": 2,
+      "categorisation": {"feculent": "riz", "proteine": "pois chiches", "legumes": ["tomate", "epinards", "oignon", "ail"]},
+      "ingredients": [
+        {"nom": "pois chiches en boite", "quantite": 400, "unite": "g"},
+        {"nom": "tomates concassees en boite", "quantite": 400, "unite": "g"},
+        {"nom": "epinards surgeles", "quantite": 200, "unite": "g"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "ail", "quantite": 1, "unite": "gousse"},
+        {"nom": "curry en poudre", "quantite": 1, "unite": "cuillère à café"},
+        {"nom": "riz", "quantite": 160, "unite": "g"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Emincer l'oignon et l'ail, faire revenir dans l'huile 2 minutes.",
+        "Ajouter le curry, les tomates concassees, les pois chiches egouttes et les epinards.",
+        "Laisser mijoter 10 minutes a couvert.",
+        "Ajouter le riz cru et un volume d'eau equivalent, couvrir et laisser cuire 18 minutes a feu doux en remuant de temps en temps.",
+        "Rectifier l'assaisonnement et servir."
+      ]
+    },
+    {
+      "id": "pates-lardons-tomate-courgette",
+      "titre": "Pates one-pot lardons, tomate et courgette",
+      "temps_preparation_minutes": 20,
+      "ustensiles": ["casserole"],
+      "portions": 2,
+      "categorisation": {"feculent": "pates", "proteine": "lardons", "legumes": ["courgette", "tomate", "oignon", "ail"]},
+      "ingredients": [
+        {"nom": "pates", "quantite": 160, "unite": "g"},
+        {"nom": "lardons", "quantite": 100, "unite": "g"},
+        {"nom": "tomates concassees en boite", "quantite": 400, "unite": "g"},
+        {"nom": "courgette", "quantite": 1, "unite": "pièce"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "ail", "quantite": 1, "unite": "gousse"},
+        {"nom": "eau", "quantite": 400, "unite": "ml"}
+      ],
+      "etapes": [
+        "Faire revenir les lardons a sec dans la casserole 3 minutes.",
+        "Ajouter l'oignon, l'ail et la courgette en des, faire revenir 3 minutes.",
+        "Ajouter les pates, les tomates concassees et l'eau.",
+        "Cuire a couvert 12 a 14 minutes en remuant regulierement jusqu'a absorption du liquide.",
+        "Rectifier l'assaisonnement et servir."
+      ]
+    },
+    {
+      "id": "semoule-saucisse-poivrons-petits-pois",
+      "titre": "Semoule sautee saucisse, poivrons et petits pois",
+      "temps_preparation_minutes": 20,
+      "ustensiles": ["poele"],
+      "portions": 2,
+      "categorisation": {"feculent": "semoule", "proteine": "saucisse de volaille", "legumes": ["poivrons", "petits pois", "oignon"]},
+      "ingredients": [
+        {"nom": "saucisses de volaille", "quantite": 2, "unite": "pièce"},
+        {"nom": "poivrons surgeles en lanieres", "quantite": 200, "unite": "g"},
+        {"nom": "petits pois surgeles", "quantite": 150, "unite": "g"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "semoule", "quantite": 140, "unite": "g"},
+        {"nom": "bouillon cube", "quantite": 1, "unite": "pièce"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Couper les saucisses en rondelles et les faire dorer dans l'huile.",
+        "Ajouter l'oignon, les poivrons et les petits pois, cuire 5 minutes.",
+        "Verser 200 ml de bouillon chaud, porter a ebullition puis retirer du feu.",
+        "Ajouter la semoule crue, couvrir et laisser gonfler 5 minutes.",
+        "Egrener a la fourchette et servir."
+      ]
+    },
+    {
+      "id": "riz-oeuf-carotte-petits-pois",
+      "titre": "Riz saute a l'oeuf, carotte et petits pois",
+      "temps_preparation_minutes": 15,
+      "ustensiles": ["poele"],
+      "portions": 2,
+      "categorisation": {"feculent": "riz", "proteine": "oeuf", "legumes": ["carotte", "petits pois"]},
+      "note": "Riz a preparer cuit a l'avance, idealement refroidi (reste de la veille) pour une meilleure texture sautee.",
+      "ingredients": [
+        {"nom": "riz cuit", "quantite": 300, "unite": "g"},
+        {"nom": "oeufs", "quantite": 3, "unite": "pièce"},
+        {"nom": "carotte", "quantite": 1, "unite": "pièce"},
+        {"nom": "petits pois surgeles", "quantite": 150, "unite": "g"},
+        {"nom": "sauce soja", "quantite": 2, "unite": "cuillère à soupe"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Couper la carotte en petits des.",
+        "Faire chauffer l'huile dans la poele et faire revenir la carotte et les petits pois 5 minutes.",
+        "Pousser les legumes sur le cote, casser les oeufs dans la poele et les brouiller rapidement.",
+        "Ajouter le riz cuit, melanger l'ensemble et faire sauter 3 minutes.",
+        "Ajouter la sauce soja, bien melanger et servir."
+      ]
+    },
+    {
+      "id": "pdt-jambon-haricots-verts",
+      "titre": "Poelee de pommes de terre, jambon et haricots verts",
+      "temps_preparation_minutes": 25,
+      "ustensiles": ["poele"],
+      "portions": 2,
+      "categorisation": {"feculent": "pommes de terre", "proteine": "jambon", "legumes": ["haricots verts", "oignon"]},
+      "ingredients": [
+        {"nom": "pommes de terre", "quantite": 400, "unite": "g"},
+        {"nom": "tranches de jambon", "quantite": 4, "unite": "pièce"},
+        {"nom": "haricots verts surgeles", "quantite": 200, "unite": "g"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Couper les pommes de terre en petits des pour une cuisson rapide.",
+        "Faire chauffer l'huile et cuire les pommes de terre a couvert 15 minutes en remuant regulierement.",
+        "Ajouter l'oignon emince et les haricots verts, cuire 5 minutes.",
+        "Ajouter le jambon coupe en lanieres, cuire 2 minutes.",
+        "Rectifier l'assaisonnement et servir."
+      ]
+    },
+    {
+      "id": "poireaux-lardons-pdt",
+      "titre": "Poelee de poireaux, lardons et pommes de terre",
+      "temps_preparation_minutes": 25,
+      "ustensiles": ["poele"],
+      "portions": 2,
+      "categorisation": {"feculent": "pommes de terre", "proteine": "lardons", "legumes": ["poireau", "oignon"]},
+      "ingredients": [
+        {"nom": "pommes de terre", "quantite": 400, "unite": "g"},
+        {"nom": "poireau", "quantite": 1, "unite": "pièce"},
+        {"nom": "lardons", "quantite": 100, "unite": "g"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Couper les pommes de terre en petits des et le poireau en rondelles.",
+        "Faire revenir les lardons a sec 3 minutes, reserver.",
+        "Dans la meme poele, cuire les pommes de terre a couvert 15 minutes en remuant.",
+        "Ajouter l'oignon et le poireau, cuire 5 minutes.",
+        "Remettre les lardons, melanger et servir."
+      ]
+    },
+    {
+      "id": "lentilles-poireau-lardons",
+      "titre": "Lentilles au poireau et lardons",
+      "temps_preparation_minutes": 25,
+      "ustensiles": ["casserole"],
+      "portions": 2,
+      "categorisation": {"feculent": "lentilles", "proteine": "lardons", "legumes": ["poireau", "oignon", "ail"]},
+      "ingredients": [
+        {"nom": "lentilles en boite", "quantite": 400, "unite": "g"},
+        {"nom": "poireau", "quantite": 1, "unite": "pièce"},
+        {"nom": "lardons", "quantite": 100, "unite": "g"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "ail", "quantite": 1, "unite": "gousse"},
+        {"nom": "bouillon cube", "quantite": 1, "unite": "pièce"}
+      ],
+      "etapes": [
+        "Faire revenir les lardons a sec 3 minutes.",
+        "Ajouter l'oignon, l'ail et le poireau emince, cuire 5 minutes.",
+        "Ajouter les lentilles egouttees et un peu de bouillon, laisser mijoter 10 minutes a couvert.",
+        "Rectifier l'assaisonnement et servir."
+      ]
+    },
+    {
+      "id": "pates-jambon-petits-pois-tomate",
+      "titre": "Pates au jambon, petits pois et tomate",
+      "temps_preparation_minutes": 20,
+      "ustensiles": ["casserole"],
+      "portions": 2,
+      "categorisation": {"feculent": "pates", "proteine": "jambon", "legumes": ["petits pois", "tomate", "oignon"]},
+      "ingredients": [
+        {"nom": "pates", "quantite": 160, "unite": "g"},
+        {"nom": "tranches de jambon", "quantite": 4, "unite": "pièce"},
+        {"nom": "petits pois surgeles", "quantite": 150, "unite": "g"},
+        {"nom": "tomates concassees en boite", "quantite": 400, "unite": "g"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "eau", "quantite": 400, "unite": "ml"}
+      ],
+      "etapes": [
+        "Faire revenir l'oignon emince dans une casserole avec un filet d'huile.",
+        "Ajouter les pates, les tomates concassees, les petits pois et l'eau.",
+        "Cuire a couvert 12 a 14 minutes en remuant regulierement.",
+        "Ajouter le jambon coupe en lanieres en fin de cuisson.",
+        "Rectifier l'assaisonnement et servir."
+      ]
+    },
+    {
+      "id": "semoule-pois-chiches-epinards-courgette",
+      "titre": "Semoule aux pois chiches, epinards et courgette",
+      "temps_preparation_minutes": 20,
+      "ustensiles": ["poele"],
+      "portions": 2,
+      "categorisation": {"feculent": "semoule", "proteine": "pois chiches", "legumes": ["epinards", "courgette", "oignon", "ail"]},
+      "ingredients": [
+        {"nom": "pois chiches en boite", "quantite": 400, "unite": "g"},
+        {"nom": "epinards surgeles", "quantite": 200, "unite": "g"},
+        {"nom": "courgette", "quantite": 1, "unite": "pièce"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "ail", "quantite": 1, "unite": "gousse"},
+        {"nom": "curry en poudre", "quantite": 1, "unite": "cuillère à café"},
+        {"nom": "semoule", "quantite": 140, "unite": "g"},
+        {"nom": "bouillon cube", "quantite": 1, "unite": "pièce"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Faire revenir l'oignon, l'ail et la courgette en des dans l'huile 5 minutes.",
+        "Ajouter les pois chiches egouttes, les epinards et le curry, cuire 5 minutes.",
+        "Verser 200 ml de bouillon chaud, porter a ebullition puis retirer du feu.",
+        "Ajouter la semoule crue, couvrir et laisser gonfler 5 minutes.",
+        "Egrener a la fourchette et servir."
+      ]
+    },
+    {
+      "id": "riz-jambon-haricots-verts-carotte",
+      "titre": "Poelee de riz, jambon et haricots verts",
+      "temps_preparation_minutes": 25,
+      "ustensiles": ["poele"],
+      "portions": 2,
+      "categorisation": {"feculent": "riz", "proteine": "jambon", "legumes": ["haricots verts", "carotte", "oignon"]},
+      "ingredients": [
+        {"nom": "riz", "quantite": 160, "unite": "g"},
+        {"nom": "tranches de jambon", "quantite": 4, "unite": "pièce"},
+        {"nom": "haricots verts surgeles", "quantite": 200, "unite": "g"},
+        {"nom": "carotte", "quantite": 1, "unite": "pièce"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "bouillon cube", "quantite": 1, "unite": "pièce"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Faire revenir l'oignon et la carotte en des dans l'huile 3 minutes.",
+        "Ajouter le riz et le bouillon (deux fois le volume de riz), couvrir et cuire 18 minutes a feu doux.",
+        "Ajouter les haricots verts a mi-cuisson.",
+        "Ajouter le jambon coupe en lanieres en fin de cuisson.",
+        "Rectifier l'assaisonnement et servir."
+      ]
+    },
+    {
+      "id": "pates-poulet-epinards-tomate",
+      "titre": "Pates au poulet, epinards et tomate",
+      "temps_preparation_minutes": 25,
+      "ustensiles": ["casserole"],
+      "portions": 2,
+      "categorisation": {"feculent": "pates", "proteine": "poulet", "legumes": ["epinards", "tomate", "oignon", "ail"]},
+      "ingredients": [
+        {"nom": "pates", "quantite": 160, "unite": "g"},
+        {"nom": "filet de poulet", "quantite": 250, "unite": "g"},
+        {"nom": "epinards surgeles", "quantite": 200, "unite": "g"},
+        {"nom": "tomates concassees en boite", "quantite": 400, "unite": "g"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "ail", "quantite": 1, "unite": "gousse"},
+        {"nom": "eau", "quantite": 400, "unite": "ml"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Couper le poulet en des et le faire dorer dans l'huile 5 minutes.",
+        "Ajouter l'oignon et l'ail, faire revenir 2 minutes.",
+        "Ajouter les pates, les tomates concassees, les epinards et l'eau.",
+        "Cuire a couvert 12 a 14 minutes en remuant regulierement.",
+        "Rectifier l'assaisonnement et servir."
+      ]
+    },
+    {
+      "id": "semoule-lardons-poireau-carotte",
+      "titre": "Semoule aux lardons, poireau et carotte",
+      "temps_preparation_minutes": 20,
+      "ustensiles": ["poele"],
+      "portions": 2,
+      "categorisation": {"feculent": "semoule", "proteine": "lardons", "legumes": ["poireau", "carotte", "oignon"]},
+      "ingredients": [
+        {"nom": "lardons", "quantite": 100, "unite": "g"},
+        {"nom": "poireau", "quantite": 1, "unite": "pièce"},
+        {"nom": "carotte", "quantite": 1, "unite": "pièce"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "semoule", "quantite": 140, "unite": "g"},
+        {"nom": "bouillon cube", "quantite": 1, "unite": "pièce"}
+      ],
+      "etapes": [
+        "Faire revenir les lardons a sec 3 minutes.",
+        "Ajouter l'oignon, le poireau et la carotte, cuire 6 minutes.",
+        "Verser 200 ml de bouillon chaud, porter a ebullition puis retirer du feu.",
+        "Ajouter la semoule crue, couvrir et laisser gonfler 5 minutes.",
+        "Egrener a la fourchette et servir."
+      ]
+    },
+    {
+      "id": "riz-lentilles-carotte-oignon",
+      "titre": "Riz aux lentilles, carotte et oignon",
+      "temps_preparation_minutes": 25,
+      "ustensiles": ["casserole"],
+      "portions": 2,
+      "categorisation": {"feculent": "riz", "proteine": "lentilles", "legumes": ["carotte", "oignon", "ail"]},
+      "ingredients": [
+        {"nom": "riz", "quantite": 100, "unite": "g"},
+        {"nom": "lentilles en boite", "quantite": 400, "unite": "g"},
+        {"nom": "carotte", "quantite": 1, "unite": "pièce"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "ail", "quantite": 1, "unite": "gousse"},
+        {"nom": "bouillon cube", "quantite": 1, "unite": "pièce"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Faire revenir l'oignon, l'ail et la carotte en des dans l'huile 3 minutes.",
+        "Ajouter le riz et le bouillon (deux fois le volume de riz), couvrir et cuire 18 minutes a feu doux.",
+        "Ajouter les lentilles egouttees 5 minutes avant la fin de cuisson pour les rechauffer.",
+        "Rectifier l'assaisonnement et servir."
+      ]
+    },
+    {
+      "id": "pdt-saucisse-poivrons",
+      "titre": "Pommes de terre a la saucisse et poivrons",
+      "temps_preparation_minutes": 25,
+      "ustensiles": ["poele"],
+      "portions": 2,
+      "categorisation": {"feculent": "pommes de terre", "proteine": "saucisse de volaille", "legumes": ["poivrons", "oignon"]},
+      "ingredients": [
+        {"nom": "pommes de terre", "quantite": 400, "unite": "g"},
+        {"nom": "saucisses de volaille", "quantite": 2, "unite": "pièce"},
+        {"nom": "poivrons surgeles en lanieres", "quantite": 200, "unite": "g"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Couper les pommes de terre en petits des.",
+        "Cuire les pommes de terre a couvert dans l'huile 15 minutes en remuant regulierement.",
+        "Ajouter l'oignon et les poivrons, cuire 5 minutes.",
+        "Ajouter les saucisses coupees en rondelles, cuire 5 minutes.",
+        "Rectifier l'assaisonnement et servir."
+      ]
+    },
+    {
+      "id": "pates-oeuf-courgette-petits-pois",
+      "titre": "Pates a l'oeuf, courgette et petits pois",
+      "temps_preparation_minutes": 20,
+      "ustensiles": ["casserole"],
+      "portions": 2,
+      "categorisation": {"feculent": "pates", "proteine": "oeuf", "legumes": ["courgette", "petits pois"]},
+      "ingredients": [
+        {"nom": "pates", "quantite": 160, "unite": "g"},
+        {"nom": "oeufs", "quantite": 3, "unite": "pièce"},
+        {"nom": "courgette", "quantite": 1, "unite": "pièce"},
+        {"nom": "petits pois surgeles", "quantite": 150, "unite": "g"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Cuire les pates a l'eau bouillante salee avec la courgette en des et les petits pois pendant le temps indique sur l'emballage.",
+        "Battre les oeufs dans un bol pendant ce temps.",
+        "Egoutter en gardant un peu d'eau de cuisson, remettre dans la casserole hors du feu.",
+        "Incorporer rapidement les oeufs battus en remuant pour eviter qu'ils ne cuisent en omelette.",
+        "Rectifier l'assaisonnement et servir immediatement."
+      ]
+    },
+    {
+      "id": "semoule-jambon-petits-pois-carotte",
+      "titre": "Semoule au jambon, petits pois et carotte",
+      "temps_preparation_minutes": 20,
+      "ustensiles": ["poele"],
+      "portions": 2,
+      "categorisation": {"feculent": "semoule", "proteine": "jambon", "legumes": ["petits pois", "carotte", "oignon"]},
+      "ingredients": [
+        {"nom": "tranches de jambon", "quantite": 4, "unite": "pièce"},
+        {"nom": "petits pois surgeles", "quantite": 150, "unite": "g"},
+        {"nom": "carotte", "quantite": 1, "unite": "pièce"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "semoule", "quantite": 140, "unite": "g"},
+        {"nom": "bouillon cube", "quantite": 1, "unite": "pièce"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Faire revenir l'oignon et la carotte en des dans l'huile 5 minutes.",
+        "Ajouter les petits pois, cuire 3 minutes.",
+        "Verser 200 ml de bouillon chaud, porter a ebullition puis retirer du feu.",
+        "Ajouter la semoule crue et le jambon coupe en lanieres, couvrir et laisser gonfler 5 minutes.",
+        "Egrener a la fourchette et servir."
+      ]
+    },
+    {
+      "id": "riz-pois-chiches-epinards-tomate",
+      "titre": "Riz aux pois chiches, epinards et tomate",
+      "temps_preparation_minutes": 25,
+      "ustensiles": ["casserole"],
+      "portions": 2,
+      "categorisation": {"feculent": "riz", "proteine": "pois chiches", "legumes": ["epinards", "tomate", "oignon", "ail"]},
+      "ingredients": [
+        {"nom": "riz", "quantite": 160, "unite": "g"},
+        {"nom": "pois chiches en boite", "quantite": 400, "unite": "g"},
+        {"nom": "epinards surgeles", "quantite": 200, "unite": "g"},
+        {"nom": "tomates concassees en boite", "quantite": 400, "unite": "g"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "ail", "quantite": 1, "unite": "gousse"},
+        {"nom": "bouillon cube", "quantite": 1, "unite": "pièce"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Faire revenir l'oignon et l'ail dans l'huile 2 minutes.",
+        "Ajouter les tomates concassees, les pois chiches egouttes et les epinards, laisser mijoter 5 minutes.",
+        "Ajouter le riz et le bouillon (volume equivalent au riz), couvrir et cuire 18 minutes a feu doux.",
+        "Rectifier l'assaisonnement et servir."
+      ]
+    },
+    {
+      "id": "semoule-poulet-courgette-tomate",
+      "titre": "Semoule au poulet, courgette et tomate",
+      "temps_preparation_minutes": 25,
+      "ustensiles": ["poele"],
+      "portions": 2,
+      "categorisation": {"feculent": "semoule", "proteine": "poulet", "legumes": ["courgette", "tomate", "oignon", "ail"]},
+      "note": "Recette de remplacement : la proposition initiale de la 19e recette faisait doublon avec la recette riz-jambon-haricots-verts-carotte.",
+      "ingredients": [
+        {"nom": "filet de poulet", "quantite": 250, "unite": "g"},
+        {"nom": "courgette", "quantite": 1, "unite": "pièce"},
+        {"nom": "tomates concassees en boite", "quantite": 400, "unite": "g"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "ail", "quantite": 1, "unite": "gousse"},
+        {"nom": "semoule", "quantite": 140, "unite": "g"},
+        {"nom": "bouillon cube", "quantite": 1, "unite": "pièce"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Couper le poulet en des et le faire dorer dans l'huile 5 minutes.",
+        "Ajouter l'oignon, l'ail et la courgette en des, cuire 5 minutes.",
+        "Ajouter les tomates concassees, laisser mijoter 5 minutes.",
+        "Verser 200 ml de bouillon chaud, porter a ebullition puis retirer du feu.",
+        "Ajouter la semoule crue, couvrir et laisser gonfler 5 minutes.",
+        "Egrener a la fourchette et servir."
+      ]
+    },
+    {
+      "id": "pdt-oeuf-haricots-verts-oignon",
+      "titre": "Pommes de terre a l'oeuf, haricots verts et oignon",
+      "temps_preparation_minutes": 25,
+      "ustensiles": ["poele"],
+      "portions": 2,
+      "categorisation": {"feculent": "pommes de terre", "proteine": "oeuf", "legumes": ["haricots verts", "oignon"]},
+      "ingredients": [
+        {"nom": "pommes de terre", "quantite": 400, "unite": "g"},
+        {"nom": "oeufs", "quantite": 4, "unite": "pièce"},
+        {"nom": "haricots verts surgeles", "quantite": 200, "unite": "g"},
+        {"nom": "oignon", "quantite": 1, "unite": "pièce"},
+        {"nom": "huile d'olive", "quantite": 1, "unite": "cuillère à soupe"}
+      ],
+      "etapes": [
+        "Couper les pommes de terre en fines rondelles pour une cuisson rapide.",
+        "Cuire a couvert dans l'huile 12 minutes en remuant regulierement.",
+        "Ajouter l'oignon et les haricots verts, cuire 5 minutes.",
+        "Battre les oeufs, les verser sur la preparation, couvrir et laisser prendre 5 minutes a feu doux, facon tortilla simplifiee.",
+        "Rectifier l'assaisonnement et servir."
+      ]
+    }
+  ]
+}
