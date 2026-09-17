@@ -1,5 +1,5 @@
-const CACHE_NAME = 'coolcook-v1';
-const CORE_ASSETS = ['./', './index.html', './manifest.json', './icon.svg'];
+const CACHE_NAME = 'coolcook-v2';
+const CORE_ASSETS = ['./', './index.html', './manifest.json', './icon.svg', './flemmequiche-recettes-v2.json'];
 
 self.addEventListener('install', (event) => {
   event.waitUntil(

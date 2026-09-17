@@ -1,13 +1,13 @@
 {
   "name": "Coolcook",
   "short_name": "Coolcook",
-  "description": "Coolcook, l'app de recettes et de planification de repas.",
+  "description": "Coolcook, l'app de recettes one-pot : suggestions par nombre de convives, quantités recalculées.",
   "start_url": "./index.html",
   "scope": "./",
   "display": "standalone",
   "orientation": "portrait",
-  "background_color": "#fdf6ec",
-  "theme_color": "#fdf6ec",
+  "background_color": "#f3f2f2",
+  "theme_color": "#f3f2f2",
   "icons": [
     { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
     { "src": "icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
