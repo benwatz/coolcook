@@ -117,8 +117,7 @@ recette est *poussé par-dessus* l'onglet courant et le bouton "← Retour" revi
   déploiement automatique à chaque push sur `master`, qui sert directement `index.html` à la
   racine (pas de pipeline CI, pas de dossier `dist`). `.nojekyll` présent pour désactiver le
   traitement Jekyll.
-- **Pas de preprod** pour ce projet (décision explicite — contrairement à Cantrip qui a un
-  environnement Netlify séparé).
+- **Pas de preprod** pour ce projet (décision explicite, comme pour Cantrip).
 
 ## Git — spécifique à cette machine, à reconfigurer sur toute nouvelle installation
 
